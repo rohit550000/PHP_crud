@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: #f7f7f7;
+  padding-top: 15rem;
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 2rem 9%;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.cont {
+  width: 40rem;
+}
+
+.addForm label {
+  font-size: 2.7rem;
+}
+
+.addForm input {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.addForm .btn-primary,
+.btn-dark,
+.btn-success {
+  font-size: 2rem;
+  padding: .6rem 4rem;
+  margin-top: 1rem;
+}
+
+ a {
+  text-decoration: none;
+}
+
+.table th {
+  font-size: 1.7rem;
+}
+
+.table td {
+  font-size: 1.6rem;
+}
+
+.table .btn-danger,
+.btn-primary {
+  font-size: 1.5rem;
+  padding: .3rem 2rem;
+}
+
+.emdetail {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.navitems {
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 600;
+}
+
+span {
+  color: blue;
+  font-size: 1.9rem;
+}
+
+.cancel {
+  font-size: 1.7rem;
+  padding: .8rem 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
